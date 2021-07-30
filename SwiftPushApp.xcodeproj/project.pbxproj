@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52A4DE1E26B461D600699BBA /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4DE1D26B461D600699BBA /* Secret.swift */; };
+		52C9A02D26B466460052090E /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9A02C26B466460052090E /* Secret.swift */; };
 		7B2F8BE34A4DCE729BA95109 /* Pods_SwiftPushApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86308717D2A8E8D7DE6A769B /* Pods_SwiftPushApp.framework */; };
 		BDD36F221D9A3BB500151031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD36F211D9A3BB500151031 /* AppDelegate.swift */; };
 		BDD36F241D9A3BB500151031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD36F231D9A3BB500151031 /* ViewController.swift */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		08A11F00C4290E83C7D99435 /* Pods-SwiftPushApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPushApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPushApp/Pods-SwiftPushApp.release.xcconfig"; sourceTree = "<group>"; };
-		52A4DE1D26B461D600699BBA /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		52C9A02C26B466460052090E /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		5F5209CBFAF753783005DEE7 /* Pods-SwiftPushApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPushApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPushApp/Pods-SwiftPushApp.debug.xcconfig"; sourceTree = "<group>"; };
 		86308717D2A8E8D7DE6A769B /* Pods_SwiftPushApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPushApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5194FC1F665F1F005C6ED9 /* SwiftPushApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftPushApp.entitlements; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BDD36F211D9A3BB500151031 /* AppDelegate.swift */,
-				52A4DE1D26B461D600699BBA /* Secret.swift */,
+				52C9A02C26B466460052090E /* Secret.swift */,
 				BDD36F231D9A3BB500151031 /* ViewController.swift */,
 				BDD36F251D9A3BB500151031 /* Main.storyboard */,
 				BDD36F2A1D9A3BB500151031 /* LaunchScreen.storyboard */,
@@ -214,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD36F241D9A3BB500151031 /* ViewController.swift in Sources */,
-				52A4DE1E26B461D600699BBA /* Secret.swift in Sources */,
+				52C9A02D26B466460052090E /* Secret.swift in Sources */,
 				BDD36F221D9A3BB500151031 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
