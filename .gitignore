@@ -111,3 +111,9 @@ fastlane/test_output
 # ==============
 
 infer-out/
+
+# ==============
+# Secret
+# ==============
+
+Secret.swift

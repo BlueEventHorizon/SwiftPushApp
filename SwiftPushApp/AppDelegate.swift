@@ -14,13 +14,10 @@ import NCMB
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    //********** APIキーの設定 **********
-    let applicationkey = "YOUR_NCMB_APPLICATIONKEY"
-    let clientkey      = "YOUR_NCMB_CLIENTKEY"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //********** SDKの初期化 **********
-        NCMB.initialize(applicationKey: applicationkey, clientKey: clientkey)
+        NCMB.initialize(applicationKey: Secret.applicationkey, clientKey: Secret.clientkey)
 
         let center = UNUserNotificationCenter.current()
         center.requestAuthorization(options: [.alert, .badge, .sound]) {granted, error in
@@ -31,7 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             if granted {
                 // デバイストークンの要求
-                UIApplication.shared.registerForRemoteNotifications()
+                DispatchQueue.main.async {
+                    UIApplication.shared.registerForRemoteNotifications()
+                }
             }
         }
 
